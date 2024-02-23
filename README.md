@@ -7,7 +7,7 @@ And to be honest, it is just an example that I can copy if i need this functiona
 # requires
 1. `g++` compiler
 2. `gnu make`
-3. (optionaly) `convert` ( member of the ImageMagick-ims6.q16 suite of tools, used for converting image types)
+3. (optionaly) `convert` ( member of the `ImageMagick-ims6.q16` suite of tools, used for converting image types)
 
 # commands
 - `make` -> builds app
