@@ -1,11 +1,10 @@
-bmp: clean_bmp
+bmp: clean
 	g++ createbmp.cpp -o uint.exe
 
 convert:
 	-convert output.bmp output.png
-	-rm output.bmp
 
-clean_bmp:
+clean:
 	-rm output.bmp
 	-rm output.png
 	-rm uint.exe
